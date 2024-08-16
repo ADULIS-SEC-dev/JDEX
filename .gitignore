@@ -1,0 +1,14 @@
+# Ignore .obsidian
+.obsidian
+
+# Ignore DB files
+*.db
+
+# Ignore log files
+*.log
+
+# Ignore some resource files
+Sample
+
+# Ignore APIKEYS
+src/0.1/APIKEY
