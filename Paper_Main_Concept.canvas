@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"6919822f71f8d06c","type":"group","x":-401,"y":780,"width":1021,"height":372,"color":"5","label":"User (B)"},
+		{"id":"da764512e7be49f5","type":"group","x":-401,"y":240,"width":1021,"height":360,"color":"5","label":"User (A)"},
+		{"id":"141944f3232edf10","type":"group","x":-381,"y":288,"width":364,"height":292,"label":"Card{id} (A)"},
+		{"id":"e306bc6872a93e91","type":"group","x":-381,"y":840,"width":364,"height":292,"label":"Card{id} (B)"},
+		{"id":"e0cfc2dc030e555f","type":"text","text":"# Abstract\n* Digital passes and programmable, touchless data exchange cards.\n* Decentralized exchange for pure peer-to-peer banking.","x":-409,"y":-124,"width":469,"height":264},
+		{"id":"c7cb64324465ffa3","type":"text","text":"# Network\n* ...","x":120,"y":-124,"width":469,"height":264},
+		{"id":"f0dbe3a752e90a82","type":"text","text":"# Transactions\n* ...","x":640,"y":-124,"width":469,"height":264},
+		{"id":"0057695504904ed6","type":"text","text":"# RFID Signal Blocker","x":-361,"y":500,"width":324,"height":60},
+		{"id":"a5eb8b355f5188a0","type":"text","text":"# BLE Module","x":-361,"y":400,"width":324,"height":60},
+		{"id":"f585a03969367a13","type":"text","text":"# NFC Module","x":-361,"y":308,"width":324,"height":60},
+		{"id":"1364e53397504d13","type":"text","text":"# RFID Signal Blocker","x":-361,"y":1052,"width":324,"height":60},
+		{"id":"b242dbf37f50484b","type":"text","text":"# BLE Module","x":-361,"y":952,"width":324,"height":60},
+		{"id":"304744924b1db306","type":"text","text":"# NFC Module","x":-361,"y":860,"width":324,"height":60},
+		{"id":"dba03063d774f5b9","type":"text","text":"# Phone w/Account (A)","x":160,"y":392,"width":440,"height":76},
+		{"id":"84d58575f91065a9","type":"text","text":"# Phone w/Account (B)","x":160,"y":936,"width":440,"height":76},
+		{"id":"28d62e77e2233763","type":"text","text":"# A","x":-409,"y":-200,"width":110,"height":60,"color":"6"},
+		{"id":"066d3de517fc9727","type":"text","text":"# B","x":120,"y":-200,"width":110,"height":60,"color":"6"},
+		{"id":"9e7ff7e99cc79e30","type":"text","text":"# C","x":640,"y":-200,"width":110,"height":60,"color":"6"},
+		{"id":"54060ac38f11d843","type":"text","text":"# Blockchain","x":820,"y":660,"width":250,"height":60,"color":"6"},
+		{"id":"7f4eb747e576654c","x":1220,"y":660,"width":314,"height":60,"color":"6","type":"text","text":"# Transaction Chain"}
+	],
+	"edges":[
+		{"id":"63b2b1667ecdffa4","fromNode":"f585a03969367a13","fromSide":"bottom","toNode":"a5eb8b355f5188a0","toSide":"top","fromEnd":"arrow"},
+		{"id":"93bd0d450d9c5e98","fromNode":"a5eb8b355f5188a0","fromSide":"bottom","toNode":"0057695504904ed6","toSide":"top","fromEnd":"arrow"},
+		{"id":"2de5084c4964873b","fromNode":"b242dbf37f50484b","fromSide":"bottom","toNode":"1364e53397504d13","toSide":"top","fromEnd":"arrow"},
+		{"id":"d6b4f06b7f2ad6ad","fromNode":"304744924b1db306","fromSide":"bottom","toNode":"b242dbf37f50484b","toSide":"top","fromEnd":"arrow"},
+		{"id":"b3cb268e27802acd","fromNode":"a5eb8b355f5188a0","fromSide":"right","toNode":"dba03063d774f5b9","toSide":"left","fromEnd":"arrow","color":"1","label":"BLE"},
+		{"id":"af5f76024335889c","fromNode":"b242dbf37f50484b","fromSide":"right","toNode":"84d58575f91065a9","toSide":"left","fromEnd":"arrow","color":"1","label":"BLE"},
+		{"id":"12b14f56b42571a0","fromNode":"28d62e77e2233763","fromSide":"right","toNode":"066d3de517fc9727","toSide":"left"},
+		{"id":"fc4b65676f12ea64","fromNode":"066d3de517fc9727","fromSide":"right","toNode":"9e7ff7e99cc79e30","toSide":"left"},
+		{"id":"edc883619c60c5c4","fromNode":"141944f3232edf10","fromSide":"bottom","toNode":"e306bc6872a93e91","toSide":"top","fromEnd":"arrow","label":"Internet-of-Cards"},
+		{"id":"2cd5cc6e13ed082c","fromNode":"da764512e7be49f5","fromSide":"right","toNode":"54060ac38f11d843","toSide":"left","fromEnd":"arrow","color":"6"},
+		{"id":"9823f637a86b6c33","fromNode":"6919822f71f8d06c","fromSide":"right","toNode":"54060ac38f11d843","toSide":"left","fromEnd":"arrow","color":"6"},
+		{"id":"113a9c1b2caa2505","fromNode":"54060ac38f11d843","fromSide":"right","toNode":"7f4eb747e576654c","toSide":"left","fromEnd":"arrow","color":"6"}
+	]
+}
